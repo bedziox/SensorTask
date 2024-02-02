@@ -1,8 +1,8 @@
-# Install script for directory: D:/Dev/Task/Sensor/src
+# Install script for directory: D:/Dev/SensorTask/Sensor/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/Dev/Task/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "D:/Dev/SensorTask/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

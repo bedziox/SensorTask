@@ -55,7 +55,29 @@ int Sensor::generateData() {
 }
 
 std::string Sensor::checkQuality(int data) {
-    std::string quality = "Normal";
+    double range = getRange().second - getRange().first;
+    double lowerThreshold = getRange().first + 0.1 * range;
+    double upperThreshold = getRange().second + 0.9 * range;
+    std::string quality = "";
+    if (data < lowerThreshold) {
+        quality = "ALARM";
+    }
+    else if (data < lowerThreshold + 0.15 * (upperThreshold - lowerThreshold)) {
+        quality = "WARNING";
+    }
+    else if (data < lowerThreshold + 0.65 * (upperThreshold - lowerThreshold)) {
+        quality = "NORMAL";
+    }
+    else if (data < lowerThreshold + 0.8 * (upperThreshold - lowerThreshold)) {
+        quality = "WARNING";
+    }
+    else if (data >= lowerThreshold + 0.8 * (upperThreshold - lowerThreshold)) {
+        quality = "ALARM";
+    }
+    else {
+        quality = "WRONG";
+    }
+    
     return quality;
 }
 
@@ -64,7 +86,8 @@ void Sensor::generateOutput() {
     while (true) {
         int data = generateData();
         std::string quality = checkQuality(data);
-        std::cout << "$FIX, " << getId() << ", " << getType() << ", " << data << ", " << quality << "*\n";
+        std::string color = Util::checkColor(quality);
+        std::cout << color << "$FIX, " << getId() << ", " << getType() << ", " << data << ", " << quality << "*\n" << RESET;
         std::this_thread::sleep_for(std::chrono::milliseconds((unsigned char)(1000 / getFrequency())));
     }
 }

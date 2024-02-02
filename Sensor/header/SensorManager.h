@@ -9,7 +9,7 @@
 #include <filesystem>
 #include "json.hpp"
 #include <thread>
-#define CONFIG_FILE "D:\\Dev\\Task\\sensorConfig.json"
+#define CONFIG_FILE "D:\\Dev\\SensorTask\\sensorConfig.json"
 
 using json = nlohmann::json;
 

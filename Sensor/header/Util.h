@@ -1,14 +1,17 @@
 
-class RetVal {
+#ifndef UTIL_H
+#define UTIL_H
+
+#define RESET   "\033[0m"
+#define RED     "\033[31m"
+#define YELLOW  "\033[33m"
+#define GREEN   "\033[32m"
+
+#include <iostream>
+
+class Util {
 public:
-	enum Status {
-		E_OK,
-		E_NOT_OK
-	};
-	RetVal(Status status) : status(status){}
-	Status getStatus() const {
-		return status;
-	}
-private:
-	Status status;
+	static std::string checkColor(std::string message);
 };
+
+#endif // !UTIL_H

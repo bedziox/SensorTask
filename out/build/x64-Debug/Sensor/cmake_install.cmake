@@ -1,8 +1,8 @@
-# Install script for directory: D:/Dev/Task/Sensor
+# Install script for directory: D:/Dev/SensorTask/Sensor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/Dev/Task/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "D:/Dev/SensorTask/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Dev/Task/out/build/x64-Debug/Sensor/header/cmake_install.cmake")
-  include("D:/Dev/Task/out/build/x64-Debug/Sensor/src/cmake_install.cmake")
+  include("D:/Dev/SensorTask/out/build/x64-Debug/Sensor/header/cmake_install.cmake")
+  include("D:/Dev/SensorTask/out/build/x64-Debug/Sensor/src/cmake_install.cmake")
 
 endif()
 

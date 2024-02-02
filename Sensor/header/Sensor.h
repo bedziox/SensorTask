@@ -7,7 +7,6 @@
 #include <random>
 #include <iostream>
 #include <sstream>
-
 class Sensor {
 public:
 	void setId(unsigned int id);

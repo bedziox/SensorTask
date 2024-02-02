@@ -39,7 +39,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        D:/Dev/Task/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CompilerIdC/CMakeCCompilerId.exe
+        D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        Note: including file: D:\\Dev\\Task\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: D:\\Dev\\SensorTask\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -85,7 +85,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        D:/Dev/Task/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CompilerIdCXX/CMakeCXXCompilerId.exe
+        D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/3.27.2-msvc1/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -97,7 +97,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Note: including file: D:\\Dev\\Task\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: D:\\Dev\\SensorTask\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -109,8 +109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Dev/Task/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6bbfuq"
-      binary: "D:/Dev/Task/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6bbfuq"
+      source: "D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-e6kxjr"
+      binary: "D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-e6kxjr"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -121,11 +121,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Dev/Task/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6bbfuq'
+        Change Dir: 'D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-e6kxjr'
         
-        Run Build Command(s): d:\\apps\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_61d0a
-        [1/2] D:\\Apps\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_61d0a.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_61d0a.dir\\ /FS -c D:\\Apps\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
-        [2/2] cmd.exe /C "cd . && D:\\Apps\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_61d0a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\Apps\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_61d0a.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_61d0a.exe /implib:cmTC_61d0a.lib /pdb:cmTC_61d0a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D D:\\Dev\\Task\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6bbfuq && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file D:/Dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/Dev/Task/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6bbfuq/cmTC_61d0a.exe -installedDir D:/Dev/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s): d:\\apps\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_81c27
+        [1/2] D:\\Apps\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_81c27.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_81c27.dir\\ /FS -c D:\\Apps\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c
+        [2/2] cmd.exe /C "cd . && D:\\Apps\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_81c27.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\Apps\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_81c27.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_81c27.exe /implib:cmTC_81c27.lib /pdb:cmTC_81c27.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D D:\\Dev\\SensorTask\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-e6kxjr && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file D:/Dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-e6kxjr/cmTC_81c27.exe -installedDir D:/Dev/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
   -
@@ -137,8 +137,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Dev/Task/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-38z4jo"
-      binary: "D:/Dev/Task/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-38z4jo"
+      source: "D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kkoi67"
+      binary: "D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kkoi67"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -149,11 +149,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Dev/Task/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-38z4jo'
+        Change Dir: 'D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kkoi67'
         
-        Run Build Command(s): d:\\apps\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_17512
-        [1/2] D:\\Apps\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_17512.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_17512.dir\\ /FS -c D:\\Apps\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
-        [2/2] cmd.exe /C "cd . && D:\\Apps\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_17512.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\Apps\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_17512.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_17512.exe /implib:cmTC_17512.lib /pdb:cmTC_17512.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D D:\\Dev\\Task\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-38z4jo && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file D:/Dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/Dev/Task/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-38z4jo/cmTC_17512.exe -installedDir D:/Dev/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
+        Run Build Command(s): d:\\apps\\visualstudio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_02076
+        [1/2] D:\\Apps\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_02076.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_02076.dir\\ /FS -c D:\\Apps\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] cmd.exe /C "cd . && D:\\Apps\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_02076.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- D:\\Apps\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_02076.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_02076.exe /implib:cmTC_02076.lib /pdb:cmTC_02076.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cmd.exe /C "cd /D D:\\Dev\\SensorTask\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kkoi67 && C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -noprofile -executionpolicy Bypass -file D:/Dev/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/Dev/SensorTask/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kkoi67/cmTC_02076.exe -installedDir D:/Dev/vcpkg/installed/x64-windows/debug/bin -OutVariable out""
         
       exitCode: 0
 ...
