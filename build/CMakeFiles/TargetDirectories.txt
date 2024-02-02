@@ -1,0 +1,4 @@
+D:/Dev/Task/build/CMakeFiles/Task.dir
+D:/Dev/Task/build/CMakeFiles/ALL_BUILD.dir
+D:/Dev/Task/build/CMakeFiles/ZERO_CHECK.dir
+D:/Dev/Task/build/Sensor/src/CMakeFiles/SENSOR_SRC.dir

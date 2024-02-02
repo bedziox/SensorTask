@@ -1,0 +1,9 @@
+# ninja log v5
+20	134	7285161698954507	Sensor/src/CMakeFiles/SENSOR_SRC.dir/SensorData.cpp.obj	d0d9facea254c6ae
+11	23	0	clean	14ff647d733ab570
+15	1068	7285634096577230	Sensor/src/CMakeFiles/SENSOR_SRC.dir/Sensor.cpp.obj	b7c13bbd91ee6e32
+18	1952	7285634105380682	Sensor/src/CMakeFiles/SENSOR_SRC.dir/SensorBuilder.cpp.obj	5e839a56770a78c3
+12	1816	7285634104047217	CMakeFiles/Task.dir/Main.cpp.obj	ce1b09029e4c62eb
+12	1420	7285636297103757	Sensor/src/CMakeFiles/SENSOR_SRC.dir/SensorManager.cpp.obj	f25d31a9f2ccfc3c
+1420	1476	7285636297625735	Sensor/src/SENSOR_SRC.lib	e5f7889daf7ca355
+1476	1979	7285636298927379	Task.exe	3a9528b0dad10f15

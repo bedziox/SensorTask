@@ -1,0 +1,10 @@
+D:/Dev/Task/out/build/x64-Debug/CMakeFiles/Task.dir
+D:/Dev/Task/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/Dev/Task/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+D:/Dev/Task/out/build/x64-Debug/Sensor/CMakeFiles/edit_cache.dir
+D:/Dev/Task/out/build/x64-Debug/Sensor/CMakeFiles/rebuild_cache.dir
+D:/Dev/Task/out/build/x64-Debug/Sensor/header/CMakeFiles/edit_cache.dir
+D:/Dev/Task/out/build/x64-Debug/Sensor/header/CMakeFiles/rebuild_cache.dir
+D:/Dev/Task/out/build/x64-Debug/Sensor/src/CMakeFiles/SENSOR_SRC.dir
+D:/Dev/Task/out/build/x64-Debug/Sensor/src/CMakeFiles/edit_cache.dir
+D:/Dev/Task/out/build/x64-Debug/Sensor/src/CMakeFiles/rebuild_cache.dir
